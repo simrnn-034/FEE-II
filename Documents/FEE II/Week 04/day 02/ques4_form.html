@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:10px;
+        }
+        
+       
+        form{
+            margin:25px 0px 0px 550px;
+            border:1px solid black;
+            width:664px;
+        }
+        label{
+            margin:30px;
+        }
+        h1{
+            margin:0px 0px 0px 199px;
+        }
+        .year{
+            margin-left: 177px;
+
+        }
+        button{
+            margin-left:265px;
+        }
+
+       
+    </style>
+</head>
+<body>
+   
+    <form action="/submit" >
+        
+    <h1>Application Form</h1><br><br>
+        <label for="fname">First Name</label>
+        <input type="text" name="Enter Name" id=""><br><br>
+        <label for="lname">Last name</label>
+        <input type="text" name="Last Name">    <br>    <br>
+        <label for="rollno">Password</label>
+        <input type="password" name="Roll number" id=""><br><br>
+        <label for="DOB">D.O.B.</label>
+        <input type="date" name="DOB" id="DOB"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="Male" value="Male">
+        <span>Male</span>
+        <input type="radio" name="Female" value="Female">
+        <span>Female</span><br><br>
+        <label for="Age">Age</label>
+        <input type="text" name="Age" value="Enter Age"><br><br>
+
+        <label for="batch">Year of Pass</label><br>
+        
+        <input type="radio" name="2025" value="2025" class="year">
+<span>2025</span><br>
+       
+        <input type="radio" name="2024" value="2024" class="year">
+        <span>2024</span><br>
+       
+        <input type="radio" name="2023" value="2023" class="year">
+         <span>2023</span><br>
+       
+        <input type="radio" name="2022" value="2022" class="year">
+         <span>2022</span><br><br>
+         <label for="Quali">Qualification</label>
+         <input type="text"><br><br>
+       <label for="branch">Branch</label>
+       <select name="sem" id="sem">
+        <option value="SEM" disabled>Select Course</option>
+        <option value="SEM">CSE</option>
+        <option value="SEM">ECE</option>
+        <option value="SEM">Mechanical</option>
+        <option value="SEM">CSE & AI</option>
+        </select><br><br>
+        <label for="cat">Categories</label>
+        <select name="cat" id="cat">
+            <option value="cat" disabled>enter categories</option>
+            <option value="cat">General</option>
+            <option value="cat">SC</option>
+            <option value="cat">OBC</option>
+            <option value="cat">Others</option>
+
+        </select><br><br>
+        <label for="colour">Colour</label>
+        <input type="color" name="colour" id="colour"><br><br>
+        <label for="range" >Select Number</label>
+        <input type="range" name="range" id="range" min:0 max:100> <br><br>
+        <button>Sumbit</button>
+        <br><br>
+
+    </form>
+
+</body>
+</html>
