@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL BLOG</title>
+    <link rel="stylesheet" href="travel_blog.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <h1>My Travel Blog &#9992;</h1>
+            </div>
+            <div class="left">
+                <ul>
+                    <li>Home</li>
+                    <li>Destinations</li>
+                    <li>Stories</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section class="intro-section">
+            <div class="left-box">
+                <h1>Welcome to My Travel Adventures!</h1>
+                <p>
+                    Join me on an incredible journey around the world as I explore breathtaking destinations, discover
+                    hidden gems,
+                    and share unforgettable experiences. From bustling city streets to serene mountain peaks, every
+                    adventure tells
+                    a story worth sharing. Let's explore the world together, one destination at a time!
+                </p>
+            </div>
+            <div class="right-box">
+                <img src="pic_main.png" alt="travel image">
+            </div>
+        </section>
+        <section class="tabular">
+            <h1>&#127757; Top 3 Travel Destinations</h1>
+            <table>
+                <tr>
+                    <th>Country</th>
+                    <th>Best Time to Visit</th>
+                    <th>Language</th>
+                </tr>
+                <tr>
+                    <td>&#x1F1EF;&#x1F1F5; Japan </td>
+                    <td>March - May (Spring)</td>
+                    <td>Japanese</td>
+                </tr>
+                <tr>
+                    <td>&#x1f1ee;&#x1f1f8; Iceland </td>
+                    <td>June - August (Summer) </td>
+                    <td>Icelandic</td>
+                </tr>
+                <tr>
+                    <td>&#x1f1f5;&#x1f1ea; Peru</td>
+                    <td>May - September (Dry Season)</td>
+                    <td>Spanish, Quechua</td>
+                </tr>
+            </table>
+        </section>
+        <section class="quote">
+            <p class="heading">The world is a book and those who do not travel read only one page.</p>
+            <p class="author">- Saint Augustine</p>
+        </section>
+        <section class="vid">
+            <h1>&#127909; My Latest Adventure</h1>
+            <video src="travel.mp4" controls></video>
+        </section>
+        <section class="form-section">
+            <h2>&#128140; Plan Your Next Adventure</h2>
+            <form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+
+                <label for="destination">Destination Interest:</label><br>
+                <select id="destination" name="destination">
+                    <option value="">--Select--</option>
+                    <option value="africa">Africa</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="south-america">South America</option>
+                </select><br><br>
+
+                <label>Travel Interests (Check all that apply):</label><br>
+                <input type="checkbox" name="interest" value="adventure"> Adventure
+                <input type="checkbox" name="interest" value="culture"> Culture
+                <input type="checkbox" name="interest" value="food"> Food
+                <input type="checkbox" name="interest" value="photography"> Photography<br><br>
+
+                <label>Type of Traveler:</label><br>
+                <input type="radio" name="traveler" value="solo"> Solo Traveler
+                <input type="radio" name="traveler" value="couple"> Couple
+                <input type="radio" name="traveler" value="family"> Family
+                <input type="radio" name="traveler" value="group"> Group<br><br>
+
+                <label for="email">Email ID:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@email.com"><br><br>
+
+                <button type="submit">Submit Travel Plans &#9992;</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&#169; 2025 My Travel Blog. All rights reserved. Made with &#9825; for fellow travelers.</p>
+    </footer>
+</body>
+
+</html>
